@@ -307,7 +307,7 @@
 #define BP_IS_SUPERIOR(org)		(!QDELETED(org) && (org.nature == MODIFICATION_SUPERIOR)) // prior to adding this check, exalts were inoperable for surgery due to a missing check in code/modules/surgery/organic.dm
 #define BP_IS_ROBOTIC(org)		(!QDELETED(org) && (org.nature == MODIFICATION_SILICON))
 #define BP_IS_SLIME(org)		(!QDELETED(org) && (org.nature == MODIFICATION_SLIME))
-#define BP_IS_PROSTHETIC(org)	(!QDELETED(org) && (org.nature == MODIFICATION_SILICON))
+#define BP_IS_PROSTHETIC(org)	(!QDELETED(org) && ((org.nature == MODIFICATION_SILICON) || (org.nature == MODIFICATION_ASSISTED)))
 #define BP_IS_BRITTLE(org)		(!QDELETED(org) && (org.status	& ORGAN_BRITTLE))
 #define BP_IS_CRYSTAL(org)		(!QDELETED(org) && (org.nature	& ORGAN_PROP_CRYSTAL))
 #define BP_IS_ASSISTED(org)		(!QDELETED(org) && (org.nature == MODIFICATION_ASSISTED))

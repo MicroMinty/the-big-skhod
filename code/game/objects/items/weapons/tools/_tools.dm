@@ -1150,7 +1150,7 @@
 		var/obj/item/organ/internal/eyes/E = H.random_organ_by_process(OP_EYES)
 		if(!E)
 			return
-		if(BP_IS_ROBOTIC(E))
+		if(BP_IS_PROSTHETIC(E))
 			to_chat(H, SPAN_WARNING("The world suddenly dims in response to the blindingly bright light, protecting you from its shine."))
 			return
 		var/safety = H.eyecheck()
