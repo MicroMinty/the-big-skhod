@@ -810,6 +810,8 @@
 	require_perms = list(R_FUN)
 
 /datum/admin_topic/forcesanity/Run(list/input)
+	to_chat(usr, "Sanity and breakdowns have been disabled, attempting to force a sanity break will have no result.") // breakdowns disabled fully in breakdown code, no point letting admins try to force use them.
+	/*
 	var/mob/living/carbon/human/H = locate(input["forcesanity"])
 	if(!ishuman(H))
 		to_chat(usr, "This can only be used on instances of type /human.")
@@ -827,6 +829,7 @@
 		H.sanity.breakdowns += B
 		to_chat(usr, SPAN_NOTICE("[B] has occurred for [key_name(H)]."))
 		return
+	*/
 
 /datum/admin_topic/revive
 	keyword = "revive"
