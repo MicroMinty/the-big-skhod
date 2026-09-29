@@ -453,7 +453,7 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "abJ" = (
 /obj/structure/flora/small/lavarock1,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_dark)
 "abK" = (
 /obj/structure/closet/secure_closet/freezer,
@@ -671,7 +671,7 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "acy" = (
 /obj/effect/decal/cleanable/rubble,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_dark)
 "acz" = (
 /obj/structure/invislightsmall,
@@ -950,7 +950,7 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "adq" = (
 /obj/structure/flora/bush,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_dark)
 "adr" = (
 /turf/simulated/wall/wood_old,
@@ -1093,7 +1093,7 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "adS" = (
 /obj/effect/decal/cleanable/rubble,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -2259,7 +2259,7 @@
 	})
 "aiq" = (
 /obj/structure/flora/bush,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_light)
 "air" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3396,7 +3396,7 @@
 /area/iskhod/outside/forest/swamp_hut)
 "alX" = (
 /obj/structure/invislight,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_light)
 "alZ" = (
 /obj/structure/flora/grass/brown,
@@ -3861,7 +3861,7 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "ant" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_light)
 "anu" = (
 /obj/random/scrap/dense_weighted/low_chance,
@@ -3927,7 +3927,7 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "anF" = (
 /obj/random/scrap/dense_weighted/low_chance,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_light)
 "anG" = (
 /obj/structure/flora/grass/brown,
@@ -5214,11 +5214,11 @@
 	requires_power = 0
 	})
 "arH" = (
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_dark)
 "arI" = (
 /obj/structure/flora/grass/brown,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_light)
 "arJ" = (
 /obj/structure/low_wall,
@@ -5345,7 +5345,7 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "asg" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_dark)
 "ash" = (
 /obj/structure/boulder,
@@ -5854,7 +5854,7 @@
 	})
 "atD" = (
 /obj/effect/floor_decal/corner/white/border,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -5979,7 +5979,7 @@
 	requires_power = 0
 	})
 "atU" = (
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -6481,7 +6481,7 @@
 /area/iskhod/dungeon/outside/prepper/alpha)
 "avF" = (
 /obj/structure/girder,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_dark)
 "avG" = (
 /obj/structure/sign/department/morgue,
@@ -7869,7 +7869,7 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aAg" = (
 /mob/living/simple/hostile/snake,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_dark)
 "aAh" = (
 /obj/effect/decal/cleanable/rubble,
@@ -8007,7 +8007,7 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aAB" = (
 /obj/machinery/cryopod/dormitory,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_dark)
 "aAC" = (
 /obj/machinery/light/small{
@@ -8286,7 +8286,7 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aBy" = (
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_light)
 "aBz" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning{
@@ -8443,7 +8443,7 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aBZ" = (
 /obj/structure/flora/grass/both,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_light)
 "aCa" = (
 /obj/effect/decal/cleanable/liquid_fuel,
@@ -8603,7 +8603,7 @@
 	})
 "aCD" = (
 /obj/structure/flora/small/snow/rock6,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_light)
 "aCE" = (
 /obj/structure/flora/grass/both,
@@ -9817,7 +9817,7 @@
 "aGj" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/bush,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_light)
 "aGk" = (
 /obj/random/rig_module/low_chance,
@@ -10225,7 +10225,7 @@
 "aHx" = (
 /obj/item/device/lighting/toggleable/lantern,
 /obj/structure/table/woodentable,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_dark)
 "aHy" = (
 /obj/effect/floor_decal/border/techfloor/orange{
@@ -10689,7 +10689,7 @@
 	tag = "icon-cargoshwall34"
 	},
 /obj/effect/decal/cleanable/rubble,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -10897,7 +10897,7 @@
 	layer = 3.8;
 	name = "tree jumping viper"
 	},
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_dark)
 "aJB" = (
 /obj/structure/railing/grey{
@@ -12018,7 +12018,7 @@
 	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aMX" = (
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha)
 "aMY" = (
 /obj/random/lathe_disk/advanced,
@@ -12077,7 +12077,7 @@
 /area/iskhod/dungeon/outside/prepper/alpha)
 "aNg" = (
 /obj/machinery/cryopod/dormitory,
-/obj/landmark/join/late/cryo_outsider,
+/obj/landmark/join/late/dormitory_outsider,
 /turf/simulated/floor/wood_old,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
@@ -12804,7 +12804,7 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aPv" = (
 /obj/effect/spider/stickyweb,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -13062,6 +13062,7 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/barricade,
+/obj/structure/air_blocker,
 /turf/simulated/floor/asteroid/dirt/dark,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
@@ -13531,12 +13532,12 @@
 	icon_state = "cargoshwall26";
 	tag = "icon-cargoshwall26"
 	},
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
 "aRE" = (
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_light)
 "aRF" = (
 /obj/effect/decal/cleanable/dirt,
@@ -13727,7 +13728,7 @@
 	})
 "aSh" = (
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_light)
 "aSi" = (
 /obj/random/lathe_disk,
@@ -13989,7 +13990,7 @@
 "aSY" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_light)
 "aSZ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -14416,7 +14417,7 @@
 	})
 "aUg" = (
 /obj/map_data/beast_cave,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -14734,7 +14735,7 @@
 "aVj" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/rubble,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -15469,7 +15470,7 @@
 /obj/machinery/computer/cryopod/dormitory{
 	pixel_x = -32
 	},
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_dark)
 "aXz" = (
 /obj/structure/sign/departmentold/chemistry/small,
@@ -15953,7 +15954,6 @@
 	})
 "aYZ" = (
 /obj/structure/bed/chair/sofa/brown/right,
-/obj/item/bedsheet,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/outside/forest/beast_cave_dark)
 "aZa" = (
@@ -16306,7 +16306,7 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aZY" = (
 /obj/structure/girder/displaced,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/outside/forest/beast_cave_dark)
 "aZZ" = (
 /obj/structure/flora/small/trailrockb5,
@@ -16315,6 +16315,18 @@
 	temperature = 240
 	},
 /area/iskhod/outside/forest/beast_cave_dark)
+"bdZ" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/item/clothing/suit/space/anomaly,
+/turf/simulated/floor/industrial,
+/area/iskhod/dungeon/outside/prepper/alpha{
+	requires_power = 0
+	})
 "bsP" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/cable{
@@ -16365,6 +16377,12 @@
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
+"bWG" = (
+/obj/machinery/space_heater,
+/turf/simulated/floor/wood/wild4,
+/area/iskhod/dungeon/outside/prepper/alpha{
+	requires_power = 0
+	})
 "cbS" = (
 /turf/simulated/shuttle/floor/mining{
 	icon_state = "5,7"
@@ -16384,7 +16402,7 @@
 	icon_state = "cargoshwall19";
 	tag = "icon-cargoshwall19"
 	},
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -16414,7 +16432,7 @@
 	icon_state = "cargoshwall23";
 	tag = "icon-cargoshwall23"
 	},
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -16500,7 +16518,7 @@
 	})
 "eBg" = (
 /obj/structure/boulder,
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -16541,7 +16559,7 @@
 	icon_state = "cargoshwall12";
 	tag = "icon-cargoshwall12"
 	},
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -16617,13 +16635,22 @@
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
+"gXe" = (
+/obj/effect/decal/cleanable/rubble,
+/obj/effect/decal/cleanable/rubble,
+/obj/structure/boulder,
+/obj/structure/air_blocker,
+/turf/simulated/floor/asteroid/dirt/dark,
+/area/iskhod/dungeon/outside/prepper/alpha{
+	requires_power = 0
+	})
 "heC" = (
 /obj/structure/bed/psych{
 	desc = "It can be a bit noisy, but still serves well.";
 	name = "old bed"
 	},
 /obj/effect/decal/cleanable/blood,
-/obj/landmark/join/late/dormitory_outsider,
+/obj/landmark/join/late/cryo_outsider,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
@@ -16677,7 +16704,7 @@
 	icon_state = "cargoshwall16";
 	tag = "icon-cargoshwall16"
 	},
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -16863,10 +16890,15 @@
 	icon_state = "cargoshwall8";
 	tag = "icon-cargoshwall8"
 	},
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
+"msj" = (
+/obj/structure/boulder,
+/obj/structure/air_blocker,
+/turf/simulated/mineral/random/rogue,
+/area/iskhod/outside/forest/beast_cave_dark)
 "mJg" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -17012,6 +17044,11 @@
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
+"pNk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/space_heater,
+/turf/simulated/floor/wood/wild5,
+/area/iskhod/outside/forest/swamp_hut)
 "pSk" = (
 /turf/simulated/shuttle/wall/cargo{
 	icon_state = "cargoshwall11";
@@ -17033,6 +17070,12 @@
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
+"qIk" = (
+/obj/machinery/space_heater,
+/turf/simulated/floor/wood_old,
+/area/iskhod/dungeon/outside/prepper/alpha{
+	requires_power = 0
+	})
 "qQx" = (
 /obj/landmark/join/start/outsider,
 /turf/simulated/shuttle/floor/mining{
@@ -17046,7 +17089,7 @@
 	icon_state = "cargoshwall14";
 	tag = "icon-cargoshwall14"
 	},
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -17058,12 +17101,19 @@
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
+"qWJ" = (
+/obj/structure/barricade,
+/obj/structure/air_blocker,
+/turf/simulated/floor/asteroid/dirt/dark,
+/area/iskhod/dungeon/outside/prepper/alpha{
+	requires_power = 0
+	})
 "rda" = (
 /obj/structure/bed/psych{
 	desc = "It can be a bit noisy, but still serves well.";
 	name = "old bed"
 	},
-/obj/landmark/join/late/dormitory_outsider,
+/obj/landmark/join/late/cryo_outsider,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
@@ -17243,6 +17293,13 @@
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
+"tPF" = (
+/obj/structure/boulder,
+/obj/structure/air_blocker,
+/turf/simulated/floor/asteroid/dirt/dark,
+/area/iskhod/dungeon/outside/prepper/alpha{
+	requires_power = 0
+	})
 "uat" = (
 /obj/machinery/floodlight,
 /turf/simulated/floor/wood/wild4,
@@ -17303,6 +17360,14 @@
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
+"uTz" = (
+/obj/effect/decal/cleanable/rubble,
+/obj/structure/boulder,
+/obj/structure/air_blocker,
+/turf/simulated/floor/asteroid/dirt/dark,
+/area/iskhod/dungeon/outside/prepper/alpha{
+	requires_power = 0
+	})
 "uVS" = (
 /obj/structure/railing{
 	dir = 1
@@ -17321,7 +17386,7 @@
 	icon_state = "cargoshwall9";
 	tag = "icon-cargoshwall9"
 	},
-/turf/unsimulated/mineral/cold,
+/turf/unsimulated/mineral,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -18531,7 +18596,7 @@ azx
 aAA
 aDw
 aHb
-aHr
+msj
 aEq
 dkK
 iGu
@@ -18733,7 +18798,7 @@ aAA
 aDw
 aDw
 aLU
-aHr
+msj
 aEq
 sAV
 iGu
@@ -18962,7 +19027,7 @@ aHy
 aZx
 aJW
 aVb
-aVb
+bdZ
 aHy
 aLA
 aPS
@@ -19964,7 +20029,7 @@ aKu
 aWA
 aWA
 axX
-aXs
+qWJ
 ajc
 ajc
 aWr
@@ -20166,7 +20231,7 @@ aDg
 aKu
 aAX
 aMc
-aXs
+qWJ
 aiw
 aiw
 aAv
@@ -20557,7 +20622,7 @@ arK
 azF
 xkO
 xkO
-tnZ
+bWG
 tnZ
 tnZ
 tnZ
@@ -20570,7 +20635,7 @@ aTg
 aFs
 aAX
 aMc
-aAX
+tPF
 auj
 aSk
 aSk
@@ -20772,7 +20837,7 @@ aDP
 aDg
 atG
 aMc
-aKd
+gXe
 ash
 aet
 aqW
@@ -20974,7 +21039,7 @@ aDg
 aAX
 aAX
 aMc
-aAX
+tPF
 ash
 aiw
 aiw
@@ -21176,7 +21241,7 @@ atG
 aqD
 aqD
 axX
-atG
+uTz
 aqE
 auj
 aSk
@@ -21576,7 +21641,7 @@ gto
 flu
 aNO
 aOg
-aOg
+qIk
 aQO
 aLZ
 azF
@@ -29439,7 +29504,7 @@ aet
 aet
 akc
 akI
-akv
+pNk
 alH
 aus
 aus
