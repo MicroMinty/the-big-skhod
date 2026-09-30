@@ -1802,22 +1802,6 @@
 		rad = 0)
 
 
-/obj/item/clothing/suit/armor/hunter/roachking
-	name = "armor of the monarch"
-	desc = "A very heavily armored suit of chitin, leather, and bone. It is adorned with Emperor silk stitching and the pheromone glands of a Kaiser Roach, both treated so as to enhance the armor, \
-	and pacify those of roachy and chitinous origin nearby."
-	icon_state = "hunter_armor_roach"
-	item_state = "hunter_armor_roach"
-	blood_overlay_type = "armor"
-	armor_list = list(
-		melee = 10
-		bullet = 10
-		energy = 10
-		bomb = 10
-		bio = 0
-		rad = 5
-	)
-
 /// End of lodge armor.
 
 /obj/item/clothing/suit/armor/vest/handmadewooden
