@@ -285,6 +285,12 @@
 	icon_state = "navycombat"
 	item_state = "navycombat"
 
+/obj/item/clothing/under/rank/ranger/pink
+	name = "pink dyed ranger field fatigues"
+	desc = "An alternative utility uniform of the Iskhod Rangers, designed for field operations where mobility is key. This one has been dyed pink against department dress code."
+	icon_state = "pinkcombat"
+	item_state = "pinkcombat"
+
 /obj/item/clothing/under/rank/ranger/service
 	name = "ranger service uniform"
 	desc = "The service uniform of the Iskhod Rangers, made from immaculate white fabric for formal duties."
