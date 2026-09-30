@@ -195,12 +195,12 @@
 
 /obj/item/gun/projectile/automatic/sts/rifle/pink
 	name = "\"STS PINK\" Blackshield rifle"
-	desc = "A lightweight modified variant of the STS-30 that takes 7.5mm rounds, shedding wartime wood for modern plastic polymer. \
+	desc = "A lightweight, pinkified modified variant of the STS-30 that takes 7.5mm rounds, shedding wartime wood for modern plastic polymer and some pink tape. \
 	The lightweight polymer, skeletal stock and shortened barrel make this weapon much lighter than the standard STS with modified receivers and gas block for better recoil control. \
 	Two stamps are pressed into the side of the receiver: A 'M&C' logo and a blackshield logo."
-	icon = 'icons/obj/guns/projectile/sts35.dmi'
-	icon_state = "pink_stspara"
-	item_state = "pink_stspara"
+	icon = 'icons/obj/guns/projectile/sts_pink.dmi'
+	icon_state = "stspara"
+	item_state = "stspara"
 	matter = list(MATERIAL_PLASTEEL = 20, MATERIAL_PLASTIC = 12)
 	w_class = ITEM_SIZE_BULKY
 	extra_bulk = -2 //Slightly smaller
