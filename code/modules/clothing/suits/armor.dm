@@ -298,10 +298,18 @@
 
 /obj/item/clothing/suit/armor/vest/ironhammer_wintercoat //pieced together thanks to Rebel's Supply spec coat - Dongels
 	name = "security armored coat"
-	desc = "An armored winter coat with vest that protects against some damage. This one has been done in security colors. Not designed for serious operations. You're pretty sure the coat is just thick enough to keep warm, and that's all. Why you would want that on a planet like Amethyn is beyond thought."
+	desc = "An armored winter coat with vest that protects against some damage. This one has been done in security colors. Not designed for serious operations. You're pretty sure the coat is just thick enough to keep warm, and that's all. Handy on a planet like Iskandor."
 	icon_state = "coatsecurity_long"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
 	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+
+obj/item/clothing/suit/armor/vest/pink_armored_wintercoat
+	name = "pink security armored coat"
+	desc = "An armored winter coat with vest that protects against some damage. This one has been dyed pink against department dress code. Not designed for serious operations. You're pretty sure the coat is just thick enough to keep warm, and that's all. Handy on a planet like Iskandor."
+	icon_state = "coatsecurity_long_pink"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+
 
 ////////////
 
