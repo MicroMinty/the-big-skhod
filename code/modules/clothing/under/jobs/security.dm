@@ -291,6 +291,32 @@
 	icon_state = "pinkcombat"
 	item_state = "pinkcombat"
 
+/obj/item/clothing/under/rank/ranger/pink/verb/toggle_style()
+	set name = "Adjust Style"
+	set category = "Object"
+	set src in usr
+
+	if(!isliving(loc))
+		return
+
+	var/mob/M = usr
+	var/list/options = list()
+	options["Standard Uniform"] = initial(icon_state)
+	options["Rolled Up Sleeves"] = "[inital(icon_state)]_sleeves"
+	options["Rolled Down Waist"] = "[inital(icon_state)]_waist"
+
+	var/choice = input(M,"What kind of style want?","Adjust Style") as null|anything in options
+
+	if(src && choice && !M.incapacitated() && Adjacent(M))
+		icon_state = options[choice]
+		item_state = options[choice]
+		item_state_slots = null
+		to_chat(M, "You adjusted your uniforms's style into [choice] mode.")
+		update_icon()
+		update_wear_icon()
+		usr.update_action_buttons()
+		return 1
+
 /obj/item/clothing/under/rank/ranger/service
 	name = "ranger service uniform"
 	desc = "The service uniform of the Iskhod Rangers, made from immaculate white fabric for formal duties."
