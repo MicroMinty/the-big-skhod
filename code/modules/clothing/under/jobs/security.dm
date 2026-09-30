@@ -302,8 +302,8 @@
 	var/mob/M = usr
 	var/list/options = list()
 	options["Standard Uniform"] = initial(icon_state)
-	options["Rolled Up Sleeves"] = "[inital(icon_state)]_rolled"
-	options["Rolled Down Waist"] = "[inital(icon_state)]_pants"
+	options["Rolled Up Sleeves"] = "[initial(icon_state)]_rolled"
+	options["Rolled Down Waist"] = "[initial(icon_state)]_pants"
 
 	var/choice = input(M,"What kind of style want?","Adjust Style") as null|anything in options
 
