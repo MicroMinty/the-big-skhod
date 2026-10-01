@@ -241,7 +241,7 @@
 
 // MicroMinty
 /datum/gear/fluff/microminty_labcoat
-	ckey_whitelist = list("MicroMinty")
+	ckey_whitelist = list("microminty")
 	display_name = "Extra-Membranous Tailored Labcoat"
 	path = /obj/item/fluff_conversion_kit/microminty_membranousmembrane
 	cost = 0
@@ -249,6 +249,7 @@
 // MicroMinty
 /obj/item/fluff_conversion_kit/microminty_membranousmembrane
 	name = "Membrane-Extender"
+	target_type = /obj/item/clothing/suit/storage/membrane
 	name_change = "Extra-Membranous Tailored Labcoat"
 	icon_change = 'icons/fluff/fluff_items.dmi'
 	icon_state_change = "membranousmembrane"
@@ -353,52 +354,72 @@
 		//"icon_override" = 'icons/fluff/fluff_items.dmi',
 		"item_state" = "pinkstunbaton"
 	)
-/*
-/obj/item/fluff_conversion_kit/s10_pinkifier
-	name = "gas mask pinkifier"
-	target_type = /obj/item/clothing/mask/gas/blackshield_gasmask
-	name_change = "C-10 Gas Mask"
+
+/obj/item/fluff_conversion_kit/advanced_cuffs_pinkifier
+	name = "Crashouts Gauntlet Paint"
+	target_type = /obj/item/handcuffs/advanced
+	name_change = "pink heavy handcuffs"
 	//icon_change = 'icons/fluff/fluff_items.dmi'
-	icon_state_change = "s10_pink"
+	icon_state_change = "pinkhandcuff_advanced"
 	vars_change = list(
-		"desc" = "A modern reproduction of an ancient but effective gas mask design from centuries ago on earth. While its primitive design is virtually unchanged, the air is still pure.",
+		"desc" = "Use this to keep prisoners in line. This gauntlet verson is much harder to break out as well as able to wrap around a RIG's gauntlet. For added disrespect, these ones have been painted pink.",
 		//"icon_override" = 'icons/fluff/fluff_items.dmi',
-		"item_state" = "s10_pink"
+		"item_state" = "pinkhandcuff_advanced"
 	)
-/obj/item/fluff_conversion_kit/s10_pinkifier
-	name = "gas mask pinkifier"
-	target_type = /obj/item/clothing/mask/gas/blackshield_gasmask
-	name_change = "C-10 Gas Mask"
+/obj/item/fluff_conversion_kit/regular_cuffs_pinkifier
+	name = "Crashouts Basic Cuffs Paint"
+	target_type = /obj/item/handcuffs
+	name_change = "pink handcuffs"
 	//icon_change = 'icons/fluff/fluff_items.dmi'
-	icon_state_change = "s10_pink"
+	icon_state_change = "pinkhandcuff"
 	vars_change = list(
-		"desc" = "A modern reproduction of an ancient but effective gas mask design from centuries ago on earth. While its primitive design is virtually unchanged, the air is still pure.",
+		"desc" = "Use this to keep prisoners in line. For added disrespect, these ones have been painted pink.",
 		//"icon_override" = 'icons/fluff/fluff_items.dmi',
-		"item_state" = "s10_pink"
+		"item_state" = "pinkhandcuff"
 	)
-/obj/item/fluff_conversion_kit/s10_pinkifier
-	name = "gas mask pinkifier"
-	target_type = /obj/item/clothing/mask/gas/blackshield_gasmask
-	name_change = "C-10 Gas Mask"
+/obj/item/fluff_conversion_kit/flashlight_pinkifier
+	name = "Crashouts Flashlight Paint"
+	target_type = /obj/item/device/lighting/toggleable/flashlight/seclite
+	name_change = "pink flashlight"
 	//icon_change = 'icons/fluff/fluff_items.dmi'
-	icon_state_change = "s10_pink"
+	icon_state_change = "pinkseclite"
 	vars_change = list(
-		"desc" = "A modern reproduction of an ancient but effective gas mask design from centuries ago on earth. While its primitive design is virtually unchanged, the air is still pure.",
+		"desc" = "A hand-held security flashlight. This one has been painted pink for an added psychological blinding effect.",
 		//"icon_override" = 'icons/fluff/fluff_items.dmi',
-		"item_state" = "s10_pink"
+		"item_state" = "pinkseclite"
 	)
-/obj/item/fluff_conversion_kit/s10_pinkifier
-	name = "gas mask pinkifier"
-	target_type = /obj/item/clothing/mask/gas/blackshield_gasmask
-	name_change = "C-10 Gas Mask"
+/obj/item/fluff_conversion_kit/hud_pinkifier
+	name = "Crashouts SecHUD Paint"
+	target_type = /obj/item/clothing/glasses/sechud/tactical
+	name_change = "tactically pink HUD"
 	//icon_change = 'icons/fluff/fluff_items.dmi'
-	icon_state_change = "s10_pink"
+	icon_state_change = "pinkswatgoggles"
 	vars_change = list(
-		"desc" = "A modern reproduction of an ancient but effective gas mask design from centuries ago on earth. While its primitive design is virtually unchanged, the air is still pure.",
+		"desc" = "Improved Flash-resistant goggles with inbuilt combat and security information. This one has been painted pink against department dress code.",
 		//"icon_override" = 'icons/fluff/fluff_items.dmi',
-		"item_state" = "s10_pink"
+		"item_state" = "pinkswatgoggles"
 	)
-*/
+/obj/item/fluff_conversion_kit/pistol_pinkifier
+	name = "Crashouts Pistol Paint"
+	target_type = /obj/item/gun/projectile/colt/ten
+	name_change = ""\"Pink Elite\" magnum pistol""
+	//icon_change = 'icons/fluff/fluff_items.dmi'
+	icon_state_change = "pinkdark_delta"
+	vars_change = list(
+		"desc" = "A classy high-powered automatic commissioned by Blackshield and based on the M1911 series handguns, with significant reinforcements produced by Scarborough Arms. Uses .40 Auto-Mag. This one has been painted pink by its owner for added lethality.",
+		//"icon_override" = 'icons/fluff/fluff_items.dmi',
+		"item_state" = "colt"
+	)
+	name = "xyz pinkifier"
+	target_type = /obj/item/clothing/xyz
+	name_change = "NAME"
+	//icon_change = 'icons/fluff/fluff_items.dmi'
+	icon_state_change = "xyz"
+	vars_change = list(
+		"desc" = "DESCRIPTION",
+		//"icon_override" = 'icons/fluff/fluff_items.dmi',
+		"item_state" = "xyz"
+	)
 // msrandylicious
 // LOADOUT OBJECTS
 /datum/gear/fluff/crashouts_sts
@@ -438,22 +459,29 @@
 	display_name = "Crashouts Baton Cover"
 	path = /obj/item/fluff_conversion_kit/baton_pinkifier
 
-/*
-/datum/gear/fluff/crashouts_xyz
-	ckey_whitelist = list("msrandylicious")
-	display_name = "Crashouts xyz"
-	path = /obj/item/fluff_conversion_kit/xyz_pinkifier
 
-/datum/gear/fluff/crashouts_xyz
+/datum/gear/fluff/crashouts_basic_cuffs
 	ckey_whitelist = list("msrandylicious")
-	display_name = "Crashouts xyz"
-	path = /obj/item/fluff_conversion_kit/xyz_pinkifier
+	display_name = "Crashouts Basic Handcuffs paint"
+	path = /obj/item/fluff_conversion_kit/regular_cuffs_pinkifier
 
-/datum/gear/fluff/crashouts_xyz
+/datum/gear/fluff/crashouts_advanced_cuffs
 	ckey_whitelist = list("msrandylicious")
-	display_name = "Crashouts xyz"
-	path = /obj/item/fluff_conversion_kit/xyz_pinkifier
-*/
+	display_name = "Crashouts Advanced Handcuffs paint"
+	path = /obj/item/fluff_conversion_kit/advanced_cuffs_pinkifier
+
+/datum/gear/fluff/crashouts_flashlight
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts Flashlight Paint"
+	path = /obj/item/fluff_conversion_kit/flashlight_pinkifier
+/datum/gear/fluff/crashouts_sechud
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts SecHUD Paint"
+	path = /obj/item/fluff_conversion_kit/hud_pinkifier
+/datum/gear/fluff/crashouts_pistol
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts Pistol Paint"
+	path = /obj/item/fluff_conversion_kit/pistol_pinkifier
 /datum/gear/fluff/crashouts_pendant
 	ckey_whitelist = list("msrandylicious")
 	display_name = "Crashouts Ruby-Gold Pendant"
