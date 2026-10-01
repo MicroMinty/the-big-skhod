@@ -246,8 +246,9 @@
 
 // MicroMinty
 /datum/gear/fluff/microminty_labcoat
-	ckey_whitelist =  = list("MicroMinty")
+	ckey_whitelist = list("MicroMinty")
 	display_name = "Extra-Membranous Tailored Labcoat"
+	target_type = /obj/item/clothing/suit/storage/membrane
 	path = /obj/item/fluff_conversion_kit/microminty_membranousmembrane
 	cost = 0
 
