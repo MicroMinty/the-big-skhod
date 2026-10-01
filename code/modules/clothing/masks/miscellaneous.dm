@@ -174,6 +174,12 @@
 	icon_state = "bandpurple"
 	item_state = "bandpurple"
 
+/obj/item/clothing/mask/bandana/purple/crashout
+	name = "A DDS gang purple bandana."
+	desc = "A purple bandana with nanotech lining. Can be worn on the head or face. Pledges allegience with some random gang called DDS?"
+	icon_state = "bandpurplecc"
+	item_state = "bandpurplecc"
+
 /obj/item/clothing/mask/rank/botanist
 	name = "botany bandana"
 	desc = "A botany bandana with nanotech lining. Can be worn on the head or face."

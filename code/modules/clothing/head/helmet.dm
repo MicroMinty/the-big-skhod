@@ -616,6 +616,19 @@
 	update_wear_icon()
 	..()
 
+/obj/item/clothing/head/helmet/marshal_pink
+	name = "pink armoured helmet"
+	desc = "A full helmet with a built in glow visor. While a weak light its better than nothing and the full cover design makes it ideal for general protection. This one has been painted pink and had cat ears glued on despite department dress code and property violations."
+	icon_state = "pinkironhammer_full"
+	item_state = "pinkironhammer_full"
+	armor_list = list(melee =7, bullet = 7,energy = 6, bomb = 25, bio = 70, rad = 0)
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|BLOCKHAIR
+	body_parts_covered = HEAD|FACE|EARS
+	cold_protection = HEAD|FACE|EARS
+	action_button_name = "Toggle Headlamp"
+	brightness_on = 5
+	light_overlay = "m_fullhelm"
+
 /obj/item/clothing/head/helmet/warrant_officer
 	name = "warrant officer full helmet"
 	desc = "A full helmet with a built in glow visor. This one appears to be fitted with new visor servos internally to protect from flashes as well as a bullet-proof reinforced mouth guard!"
