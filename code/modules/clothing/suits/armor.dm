@@ -296,6 +296,15 @@
 		usr.update_action_buttons()
 		return 1
 
+/obj/item/clothing/suit/armor/vest/ironhammer/pink
+	name = "pink tactical unit armor"
+	desc = "An armored vest painted in Pretty Pink. This one has shoulderpads and kneepads included to protect all parts of the body."
+	icon_state = "pinkarmor_ih_fullbody_alt"
+	item_state = "pinkarmor_ih_fullbody_alt"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	stiffness = LIGHT_STIFFNESS
+
 /obj/item/clothing/suit/armor/vest/ironhammer_wintercoat //pieced together thanks to Rebel's Supply spec coat - Dongels
 	name = "security armored coat"
 	desc = "An armored winter coat with vest that protects against some damage. This one has been done in security colors. Not designed for serious operations. You're pretty sure the coat is just thick enough to keep warm, and that's all. Handy on a planet like Iskandor."

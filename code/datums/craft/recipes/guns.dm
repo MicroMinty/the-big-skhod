@@ -205,7 +205,7 @@
 		list(QUALITY_SCREW_DRIVING, 10, "time" = 10),
 		list(CRAFT_MATERIAL, 15, MATERIAL_PLASTEEL),
 		list(QUALITY_WELDING, 10, "time" = 20),
-		list(/obj/item/stock_parts/blackshield/pink_conversion_kit, 1),
+		list(/obj/item/stock_parts/blackshield/pink_sts_kit, 1),
 		list(CRAFT_MATERIAL, 15, MATERIAL_STEEL),
 		list(QUALITY_ADHESIVE, 15, 70),
 		list(CRAFT_MATERIAL, 15, MATERIAL_PLASTIC),
