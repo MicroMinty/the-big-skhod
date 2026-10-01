@@ -402,7 +402,7 @@
 /obj/item/fluff_conversion_kit/pistol_pinkifier
 	name = "Crashouts Pistol Paint"
 	target_type = /obj/item/gun/projectile/colt/ten
-	name_change = ""\"Pink Elite\" magnum pistol""
+	name_change = "\"Pink Elite\" magnum pistol"
 	//icon_change = 'icons/fluff/fluff_items.dmi'
 	icon_state_change = "pinkdark_delta"
 	vars_change = list(
