@@ -313,7 +313,7 @@
 	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
 
 obj/item/clothing/suit/armor/vest/pink_armored_wintercoat
-	name = "pink security armored coat"
+	name = "pink armored winter coat"
 	desc = "An armored winter coat with vest that protects against some damage. This one has been dyed pink against department dress code. Not designed for serious operations. You're pretty sure the coat is just thick enough to keep warm, and that's all. Handy on a planet like Iskandor."
 	icon_state = "coatsecurity_long_pink"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
