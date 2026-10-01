@@ -254,7 +254,7 @@
 	Two stamps are pressed into the side of the receiver: A 'M&C' logo and a blackshield logo.",
 		"icon_override" = 'icons/obj/guns/projectile/sts_pink.dmi',
 		"item_state" = "stspara",
-		"sawn" = '/obj/item/gun/projectile/automatic/sts/rifle/blackshield'
+		//"sawn" = '/obj/item/gun/projectile/automatic/sts/rifle/blackshield'
 	)
 /obj/item/fluff_conversion_kit/uniform_pinkifier
 	name = "Crashouts Fatigue Dye"
@@ -303,7 +303,7 @@
 /obj/item/fluff_conversion_kit/ushanka_pinkifier
 	name = "Crashouts Ushanka Dye"
 	target_type = /obj/item/clothing/head/ushanka/security
-	name_change = "pink security ushanka
+	name_change = "pink security ushanka"
 	//icon_change = 'icons/fluff/fluff_items.dmi'
 	icon_state_change = "pinkflushankadown"
 	vars_change = list(
@@ -311,6 +311,7 @@
 		//"icon_override" = 'icons/fluff/fluff_items.dmi',
 		"item_state" = "pinkflushankadown"
 	)
+
 /obj/item/fluff_conversion_kit/helmet_pinkifier
 	name = "Crashouts Helmet Paint"
 	target_type = /obj/item/clothing/head/helmet/marshal_full
