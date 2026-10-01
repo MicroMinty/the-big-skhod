@@ -23,7 +23,7 @@
 
 /obj/item/gun/projectile/colt/ten
 	name = "\"Delta Elite\" magnum pistol"
-	desc = "A classy high-powered automatic commissionedby Blackshield and based on the M1911 series handguns, with significant reinforcements produced by Scarborough Arms. Uses .40 Auto-Mag."
+	desc = "A classy high-powered automatic commissioned by Blackshield and based on the M1911 series handguns, with significant reinforcements produced by Scarborough Arms. Uses .40 Auto-Mag."
 	icon_state = "dark_delta"
 	item_state = "colt"
 	w_class = ITEM_SIZE_NORMAL
