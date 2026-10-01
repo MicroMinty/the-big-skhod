@@ -239,6 +239,25 @@
 	path = /obj/item/clothing/accessory/cape/outsider
 	cost = 0
 
+// MicroMinty
+/datum/gear/fluff/microminty_labcoat
+	ckey_whitelist =  = list("MicroMinty")
+	display_name = "Extra-Membranous Tailored Labcoat"
+	path = /obj/item/fluff_conversion_kit/microminty_membranousmembrane
+	cost = 0
+
+// MicroMinty
+/obj/item/fluff_conversion_kit/microminty_membranousmembrane
+	name = "Membrane-Extender"
+	name_change = "Extra-Membranous Tailored Labcoat"
+	icon_change = 'icons/fluff/fluff_items.dmi'
+	icon_state_change = "membranousmembrane"
+	vars_change = list(
+		"desc" = "An even longer labcoat with buttons on the side. It has a gigantically larger collar than the standard lab coat, to help protect your face from your and everyone elses' mistakes. This one has a metal rivet near the mouth. It is also stained near the edges of the sleeves with remnants of various toxic compounds. Yummy!",
+		"icon_override" = 'icons/fluff/clothing_mob.dmi',
+		"item_state" = "membranousmembrane"
+	)
+
 // msrandylicious
 // theres a lot here so uh...
 // CONVERSION KITS

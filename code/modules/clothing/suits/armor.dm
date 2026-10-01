@@ -1818,6 +1818,9 @@ obj/item/clothing/suit/armor/vest/pink_armored_wintercoat
 		bio = 0,
 		rad = 0)
 
+
+/// End of lodge armor.
+
 /obj/item/clothing/suit/armor/vest/handmadewooden
 	name = "wooden armor"
 	desc = "A series of planks held into a relatively torso shaped form by cloth tied around the shoulders and waist. Then further padded with more cloth along the inside."
