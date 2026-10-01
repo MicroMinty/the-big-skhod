@@ -243,21 +243,33 @@
 /datum/gear/fluff/microminty_labcoat
 	ckey_whitelist = list("microminty")
 	display_name = "Extra-Membranous Tailored Labcoat"
-	target_type = /obj/item/clothing/suit/storage/membrane
-	path = /obj/item/fluff_conversion_kit/microminty_membranousmembrane
+	path = /obj/item/clothing/suit/hooded/fluff/microminty_membranousmembrane
 	cost = 0
 
 // MicroMinty
-/obj/item/fluff_conversion_kit/microminty_membranousmembrane
-	name = "Membrane-Extender"
-	name_change = "Extra-Membranous Tailored Labcoat"
-	icon_change = 'icons/fluff/fluff_items.dmi'
-	icon_state_change = "membranousmembrane"
-	vars_change = list(
-		"desc" = "An even longer labcoat with buttons on the side. It has a gigantically larger collar than the standard lab coat, to help protect your face from your and everyone elses' mistakes. This one has a metal rivet near the mouth. It is also stained near the edges of the sleeves with remnants of various toxic compounds. Yummy!",
-		"icon_override" = 'icons/fluff/clothing_mob.dmi',
-		"item_state" = "membranousmembrane"
+
+/obj/item/clothing/suit/hooded/fluff/microminty_membranousmembrane
+	name = "Extra-Membranous Tailored Labcoat"
+	icon = 'icons/fluff/clothing_mob.dmi'
+	icon_state = "membranousmembrane"
+	item_state = "membranousmembrane"
+	desc = "An even longer labcoat with buttons on the side. It has a gigantically larger collar than the standard lab coat, to help protect your face from your and everyone elses' mistakes. This one has a metal rivet near the mouth. It is also stained near the edges of the sleeves with remnants of various toxic compounds. Yummy!"
+	hoodtype = /obj/item/clothing/head/fluff/microminty_membranousmembrane_hood
+	blood_overlay_type = "coat"
+	body_parts_covered = UPPER_TORSO|ARMS|LOWER_TORSO|LEGS
+	armor_list = list(
+		melee = 0,
+		bullet = 0,
+		bomb = 0,
+		bio = 50,
+		rad = 0
 	)
+/obj/item/clothing/head/fluff/microminty_membranousmembrane_hood
+	name = "Extra-Membranous Coat Collar"
+	icon = 'icons/fluff/clothing_mob.dmi'
+	icon_state = "membranoushood"
+	item_state = "membranoushood"
+	desc = "The collar of a very long labcoat."
 
 // msrandylicious
 // theres a lot here so uh...
