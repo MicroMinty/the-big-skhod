@@ -349,16 +349,21 @@
 	desc = "A hand-held security flashlight."
 	icon_state = "seclite"
 	item_state = "seclite"
+	var/base_state = initial(icon_state) // ADDED TO AVOID BREAKING FLUFF ITEMS
 	light_spot_power = 2.5
 	price_tag = 8
 	tick_cost = 0.2
 
 /obj/item/device/lighting/toggleable/flashlight/seclite/update_icon()
 	. = ..()
+	if(findtext(icon_state, "pink", Start=1, End=0)!=0)
+		base_state = "pinkseclite" // ADDED TO AVOID BREAKING FLUFF ITEMS
+	else if(!base_state)
+		base_state = initial(icon_state)
 
 	if(on)
-		item_state = "[initial(icon_state)]-on"
+		item_state = "[base_state]-on"
 		update_wear_icon()
 	else
-		item_state = "[initial(icon_state)]"
+		item_state = "[base_state]"
 		update_wear_icon()

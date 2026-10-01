@@ -570,6 +570,7 @@
 	desc = "A full helmet with a built in glow visor. While a weak light its better than nothing and the full cover design makes it ideal for general protection."
 	icon_state = "ironhammer_full"
 	item_state = "ironhammer_full"
+	var/base_state = initial(icon_state) // ADDED TO AVOID BREAKING FLUFF ITEMS
 	armor_list = list(melee =7, bullet = 7,energy = 6, bomb = 25, bio = 70, rad = 0)
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|BLOCKHAIR
 	body_parts_covered = HEAD|FACE|EARS
@@ -591,7 +592,7 @@
 	options["Standard fullhelm"] = ""
 	options["xeno fullhelm"] = "_a"
 	options["xeno fullhelm extended"] = "_k"
-	var/choice = input(M,"What kind of style do you want?","Adjust Style") as null|anything in options
+	var/choice = input(M,"What kind of style do you want? (will erase fluff)","Adjust Style") as null|anything in options
 
 	if(src && choice && !M.incapacitated() && Adjacent(M))
 		var/base = initial(icon_state)
@@ -607,11 +608,16 @@
 
 
 /obj/item/clothing/head/helmet/marshal_full/update_icon()
+	if(findtext(icon_state, "pink", Start=1, End=0)!=0)
+		base_state = "pinkironhammer_full" // ADDED TO AVOID BREAKING FLUFF ITEMS
+	else if(!base_state)
+		base_state = initial(icon_state)
+
 	if(on)
-		icon_state = "ironhammer_full_on"
+		icon_state = "[base_state]_on"
 		set_light(brightness_on, 1, COLOR_LIGHTING_ORANGE_MACHINERY)
 	else
-		icon_state = "ironhammer_full"
+		icon_state = base_state
 		set_light(0, 0)
 	update_wear_icon()
 	..()

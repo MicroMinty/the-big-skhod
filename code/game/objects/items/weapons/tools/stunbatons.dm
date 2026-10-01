@@ -25,6 +25,7 @@
 	glow_color = COLOR_LIGHTING_ORANGE_BRIGHT
 	cell = /obj/item/cell/medium/high
 	var/slime_killer = FALSE
+	var/base_state = initial(icon_state) // ADDED TO AVOID BREAKING FLUFF ITEMS
 	structure_damage_factor = STRUCTURE_DAMAGE_BLUNT
 	matter = list(MATERIAL_STEEL = 10, MATERIAL_GLASS = 1, MATERIAL_PLASTIC = 10)
 
@@ -113,14 +114,19 @@
 			turn_off()
 
 /obj/item/tool/baton/update_icon()
-	if(switched_on)
-		icon_state = "[initial(icon_state)]_active"
-	else if(!cell)
-		icon_state = "[initial(icon_state)]_nocell"
-	else
-		icon_state = "[initial(icon_state)]"
+	if(findtext(icon_state, "pink", Start=1, End=0)!=0)
+		base_state = "pinkstunbaton" // ADDED TO AVOID BREAKING FLUFF ITEMS
+	else if(!base_state)
+		base_state = initial(icon_state)
 
-	if(icon_state == "[initial(icon_state)]_active")
+	if(switched_on)
+		icon_state = "[base_state]_active"
+	else if(!cell)
+		icon_state = "[base_state]_nocell"
+	else
+		icon_state = "[base_state]"
+
+	if(icon_state == "[base_state]_active")
 		set_light(1.5, 1)
 	else
 		set_light(0)
