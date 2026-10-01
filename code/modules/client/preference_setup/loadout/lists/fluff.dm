@@ -410,16 +410,6 @@
 		//"icon_override" = 'icons/fluff/fluff_items.dmi',
 		"item_state" = "colt"
 	)
-	name = "xyz pinkifier"
-	target_type = /obj/item/clothing/xyz
-	name_change = "NAME"
-	//icon_change = 'icons/fluff/fluff_items.dmi'
-	icon_state_change = "xyz"
-	vars_change = list(
-		"desc" = "DESCRIPTION",
-		//"icon_override" = 'icons/fluff/fluff_items.dmi',
-		"item_state" = "xyz"
-	)
 // msrandylicious
 // LOADOUT OBJECTS
 /datum/gear/fluff/crashouts_sts
