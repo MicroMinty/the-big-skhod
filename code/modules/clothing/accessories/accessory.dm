@@ -1315,6 +1315,12 @@
 	item_state = "tronket"
 	slot_flags = SLOT_MASK | SLOT_ACCESSORY_BUFFER
 
+/obj/item/clothing/accessory/necklace/rubypendant
+	name = "gold and ruby pendant"
+	desc = "A Gold pendant with a large ruby-like gem in the center, hangs from a matching red string. The face opens to reveal a vintage wind up watch inside which surprisingly still functions."
+	icon_state = "goldpendant"
+	item_state = "goldpendant"
+
 /obj/item/clothing/accessory/necklace/dogtags
 	name = "dog tags"
 	desc = "A pair of engraved metal identification tags."

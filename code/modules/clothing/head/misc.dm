@@ -591,6 +591,13 @@ obj/item/clothing/head/sunhat/verb/toggle_style()
 	desc = "A warm, fur cap. The flaps are currently secured downwards for maximum warmth."
 	armor_list = list(melee = 6, bullet = 5, energy = 3, bomb = 20, bio = 0, rad = 0) // Matching base wintercoat security armor
 
+/obj/item/clothing/head/ushanka/security/pink
+	name = "pink ushanka"
+	desc = "A warm, fur cap. The flaps are currently secured downwards for maximum warmth. This one has been dyed pink against department dress code."
+	icon_state = "pinkflushankadown"
+	item_state = "pinkflushankadown"
+	armor_list = list(melee = 6, bullet = 5, energy = 3, bomb = 20, bio = 0, rad = 0) // Matching base wintercoat security armor
+
 // No more bulky ushanka, no need for this.
 /*
 /obj/item/clothing/head/ushanka/attack_self(mob/user as mob)
