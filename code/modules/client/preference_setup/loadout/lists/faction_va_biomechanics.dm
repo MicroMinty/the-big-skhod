@@ -1,7 +1,7 @@
 /datum/gear/factionsoteria
 	display_name = "winter coat, vesalius-andra research"
 	path = /obj/item/clothing/suit/hooded/wintercoat/science
-	allowed_roles = list(JOBS_SCIENCE)
+	allowed_roles = list(JOBS_SCIENCE, "Chemist")
 	slot = slot_wear_suit
 	sort_category = "Faction: Vesalius-Andra"
 	cost = 0
@@ -23,7 +23,7 @@
 /datum/gear/factionsoteria/cloakmedical
 	display_name = "cloak, vesalius-andra medical"
 	path = /obj/item/clothing/accessory/job/cape/medical
-	allowed_roles = list(JOBS_MEDICAL)
+	allowed_roles = list(JOBS_MEDICAL, "Chemist")
 	slot = slot_wear_suit
 	sort_category = "Faction: Vesalius-Andra"
 
@@ -44,7 +44,7 @@
 /datum/gear/factionsoteria/gorka_crew_med
 	display_name = "gorka jacket, vesalius-andra medical"
 	path = /obj/item/clothing/suit/gorka/toggle/crew_med
-	allowed_roles = list("Doctor","Medical Overseer","Paramedic", "Resident")
+	allowed_roles = list("Doctor","Medical Overseer","Paramedic", "Resident", "Chemist")
 	slot = slot_wear_suit
 	sort_category = "Faction: Vesalius-Andra"
 
@@ -58,7 +58,7 @@
 /datum/gear/factionsoteria/gorkamoebiusmedical
 	display_name = "gorka jumpsuit, vesalius-andra medical"
 	path = /obj/item/clothing/under/rank/medical/gorka_crew_med
-	allowed_roles = list("Doctor","Medical Overseer","Paramedic")
+	allowed_roles = list("Doctor","Medical Overseer","Paramedic", "Chemist")
 	slot = slot_w_uniform
 	sort_category = "Faction: Vesalius-Andra"
 
@@ -72,7 +72,7 @@
 /datum/gear/factionsoteria/gorkapantsmedical
 	display_name = "gorka pants, vesalius-andra medical"
 	path = /obj/item/clothing/under/rank/medical/gorkapantscrewmed
-	allowed_roles = list("Doctor","Medical Overseer","Paramedic", "Resident")
+	allowed_roles = list("Doctor","Medical Overseer","Paramedic", "Resident", "Chemist")
 	slot = slot_w_uniform
 	sort_category = "Faction: Vesalius-Andra"
 
@@ -85,25 +85,25 @@
 /datum/gear/factionsoteria/medicalscouter
 	display_name = "medical HUD, scouter"
 	path = /obj/item/clothing/glasses/hud/health/scouter
-	allowed_roles = list("Medical Overseer","Doctor","Paramedic","Corpsman", "Resident")
+	allowed_roles = list("Medical Overseer","Doctor","Paramedic","Corpsman", "Resident", "Chemist")
 	sort_category = "Faction: Vesalius-Andra"
 
 /datum/gear/factionsoteria/medicalhalfmoon
 	display_name = "medical HUD, halfmoon glasses"
 	path = /obj/item/clothing/glasses/hud/health/halfmoon
-	allowed_roles = list("Medical Overseer","Doctor","Paramedic","Corpsman", "Resident")
+	allowed_roles = list("Medical Overseer","Doctor","Paramedic","Corpsman", "Resident", "Chemist")
 	sort_category = "Faction: Vesalius-Andra"
 
 /datum/gear/factionsoteria/hudpatch
 	display_name = "medical HUD, eyepatch"
 	path = /obj/item/clothing/glasses/eyepatch/medpatch
-	allowed_roles = list("Medical Overseer","Doctor","Paramedic","Corpsman", "Resident")
+	allowed_roles = list("Medical Overseer","Doctor","Paramedic","Corpsman", "Resident", "Chemist")
 	sort_category = "Faction: Vesalius-Andra"
 
 /datum/gear/factionsoteria/sciencegoggles
 	display_name = "science goggles"
 	path = /obj/item/clothing/glasses/powered/science
-	allowed_roles = list(JOBS_SCIENCE)
+	allowed_roles = list(JOBS_SCIENCE, "Chemist")
 	slot = slot_glasses
 	sort_category = "Faction: Vesalius-Andra"
 
@@ -126,7 +126,7 @@
 /datum/gear/factionsoteria/snowsuitmedical
 	display_name = "snowsuit, vesalius-andra medical"
 	path = /obj/item/clothing/suit/storage/snowsuit/medical
-	allowed_roles = list("Psychiatrist","Nurse","Paramedic","Medical Overseer", "Resident")
+	allowed_roles = list("Psychiatrist","Nurse","Paramedic","Medical Overseer", "Resident", "Chemist")
 	slot = slot_wear_suit
 	sort_category = "Faction: Vesalius-Andra"
 
@@ -140,7 +140,7 @@
 /datum/gear/factionsoteria/winterbootsmedical
 	display_name = "winter boots, vesalius-andra medical"
 	path = /obj/item/clothing/shoes/jackboots
-	allowed_roles = list("Psychiatrist","Paramedic","Doctor","Medical Overseer")
+	allowed_roles = list("Psychiatrist","Paramedic","Doctor","Medical Overseer", "Chemist")
 	slot = slot_shoes
 	sort_category = "Faction: Vesalius-Andra"
 
@@ -154,35 +154,35 @@
 /datum/gear/factionsoteria/wintercoatmedical
 	display_name = "winter coat, vesalius-andra medical"
 	path = /obj/item/clothing/suit/hooded/wintercoat/medical
-	allowed_roles = list("Psychiatrist","Paramedic","Doctor","Medical Overseer", "Resident")
+	allowed_roles = list("Psychiatrist","Paramedic","Doctor","Medical Overseer", "Resident", "Chemist")
 	slot = slot_wear_suit
 	sort_category = "Faction: Vesalius-Andra"
 
 /datum/gear/factionsoteria/labcoatmembrane
 	display_name = "labcoat, membrane"
 	path = /obj/item/clothing/suit/storage/membrane
-	allowed_roles = list(JOBS_SCIENCE)
+	allowed_roles = list(JOBS_SCIENCE, "Chemist")
 	slot = slot_wear_suit
 	sort_category = "Faction: Vesalius-Andra"
 
 /datum/gear/factionsoteria/glovesscience
 	display_name = "gloves, scientific"
 	path = /obj/item/clothing/gloves/membrane
-	allowed_roles = list(JOBS_SCIENCE)
+	allowed_roles = list(JOBS_SCIENCE, "Chemist")
 	slot = slot_gloves
 	sort_category = "Faction: Vesalius-Andra"
 
 /datum/gear/factionsoteria/glovesscience
 	display_name = "gloves, scientific"
 	path = /obj/item/clothing/gloves/membrane
-	allowed_roles = list(JOBS_SCIENCE)
+	allowed_roles = list(JOBS_SCIENCE, "Chemist")
 	slot = slot_gloves
 	sort_category = "Faction: Vesalius-Andra"
 
 /datum/gear/factionsoteria/penlight
 	display_name = "medical penlight"
 	path = /obj/item/device/lighting/toggleable/flashlight/pen
-	allowed_roles = list("Paramedic","Doctor","Medical Overseer", "Resident")
+	allowed_roles = list("Paramedic","Doctor","Medical Overseer", "Resident", "Chemist")
 	slot = slot_r_ear
 	sort_category = "Faction: Vesalius-Andra"
 	cost = 0
