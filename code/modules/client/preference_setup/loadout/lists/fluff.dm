@@ -4,10 +4,6 @@
 // And always label both the /datum/gear and /obj/item with `// ckey - character name` (or just `// ckey`)
 // IT IS UP TO THE PLAYERS TO KEEP THEIR SHIT WORKING, NOT DEVELOPERS THAT CHANGE THINGS. (Other than compile errors, cuz, y'know, you'll have to figure that out.)
 // Prefer using /obj/item/fluff_conversion_kit where possible over spawning an item
-// Total cost for obtaining your fluff item must be regular cost + 1 (k5 requirement)
-// 1. If using conversion kit, this means set cost=1 so it costs 1 for the kit and whatever for the item
-// 2. If spawning directly, specify cost = (default cost + 1)
-//    You cannot do this progammatically, you have to find the appropriate cost by hand
 
 /obj/item/fluff_conversion_kit
 	name = "Conversion Kit"
@@ -93,7 +89,7 @@
 /datum/gear/fluff
 	category = /datum/gear/fluff
 	sort_category = "Fluff Items"
-	cost = 1
+	cost = 0
 
 /datum/gear/fluff/New()
 	. = ..()
@@ -242,3 +238,214 @@
 	display_name = "Outsider's Cloak"
 	path = /obj/item/clothing/accessory/cape/outsider
 	cost = 0
+
+// msrandylicious
+// theres a lot here so uh...
+// CONVERSION KITS
+/obj/item/fluff_conversion_kit/sts_pinkifier
+	name = "Crashouts STS Auto Converter"
+	target_type = /obj/item/gun/projectile/automatic/sts/rifle/blackshield
+	name_change = "\"STS PINK\" Blackshield rifle"
+	icon_change = 'icons/obj/guns/projectile/sts_pink.dmi'
+	icon_state_change = "stspara"
+	vars_change = list(
+		"desc" = "A lightweight, pinkified modified variant of the STS-30 that takes 7.5mm rounds, shedding wartime wood for modern plastic polymer and some pink tape. \
+	The lightweight polymer, skeletal stock and shortened barrel make this weapon much lighter than the standard STS with modified receivers and gas block for better recoil control. \
+	Two stamps are pressed into the side of the receiver: A 'M&C' logo and a blackshield logo.",
+		"icon_override" = 'icons/obj/guns/projectile/sts_pink.dmi',
+		"item_state" = "stspara",
+		"sawn" = '/obj/item/gun/projectile/automatic/sts/rifle/blackshield'
+	)
+/obj/item/fluff_conversion_kit/uniform_pinkifier
+	name = "Crashouts Fatigue Dye"
+	target_type = /obj/item/clothing/under/rank/ranger/fatigues
+	name_change = "pink dyed ranger field fatigues"
+	//icon_change = 'icons/fluff/fluff_items.dmi'
+	icon_state_change = "pinkcombat"
+	vars_change = list(
+		"desc" = "An alternative utility uniform of the Iskhod Rangers, designed for field operations where mobility is key. This one has been dyed pink against department dress code.",
+		//"icon_override" = 'icons/fluff/fluff_items.dmi',
+		"item_state" = "pinkcombat"
+	)
+/obj/item/fluff_conversion_kit/armour_pinkifier
+	name = "Crashouts Armour Paint"
+	target_type = /obj/item/clothing/suit/armor/vest/ironhammer/full
+	name_change = "pink tactical unit armor"
+	//icon_change = 'icons/fluff/fluff_items.dmi'
+	icon_state_change = "pinkarmor_ih_fullbody_alt"
+	vars_change = list(
+		"desc" = "An armored vest painted in Pretty Pink. This one has shoulderpads and kneepads included to protect all parts of the body.",
+		//"icon_override" = 'icons/fluff/fluff_items.dmi',
+		"item_state" = "pinkarmor_ih_fullbody_alt"
+	)
+/obj/item/fluff_conversion_kit/wintercoat_pinkifier
+	name = "Crashouts Wintercoat Dye"
+	target_type = /obj/item/clothing/suit/armor/vest/ironhammer_wintercoat
+	name_change = "pink armored winter coat"
+	//icon_change = 'icons/fluff/fluff_items.dmi'
+	icon_state_change = "coatsecurity_long_pink"
+	vars_change = list(
+		"desc" = "An armored winter coat with vest that protects against some damage. This one has been dyed pink against department dress code. Not designed for serious operations. You're pretty sure the coat is just thick enough to keep warm, and that's all. Handy on a planet like Iskandor.",
+		//"icon_override" = 'icons/fluff/fluff_items.dmi',
+		"item_state" = "coatsecurity_long_pink"
+	)
+/obj/item/fluff_conversion_kit/s10_pinkifier
+	name = "Crashouts GasMask Paint"
+	target_type = /obj/item/clothing/mask/gas/blackshield_gasmask
+	name_change = "C-10 Gas Mask"
+	//icon_change = 'icons/fluff/fluff_items.dmi'
+	icon_state_change = "s10_pink"
+	vars_change = list(
+		"desc" = "A modern reproduction of an ancient but effective gas mask design from centuries ago on earth. While its primitive design is virtually unchanged, the air is still pure.",
+		//"icon_override" = 'icons/fluff/fluff_items.dmi',
+		"item_state" = "s10_pink"
+	)
+/obj/item/fluff_conversion_kit/ushanka_pinkifier
+	name = "Crashouts Ushanka Dye"
+	target_type = /obj/item/clothing/head/ushanka/security
+	name_change = "pink security ushanka
+	//icon_change = 'icons/fluff/fluff_items.dmi'
+	icon_state_change = "pinkflushankadown"
+	vars_change = list(
+		"desc" = "A warm, fur cap. The flaps are currently secured downwards for maximum warmth. This one has been dyed pink against department dress code.",
+		//"icon_override" = 'icons/fluff/fluff_items.dmi',
+		"item_state" = "pinkflushankadown"
+	)
+/obj/item/fluff_conversion_kit/helmet_pinkifier
+	name = "Crashouts Helmet Paint"
+	target_type = /obj/item/clothing/head/helmet/marshal_full
+	name_change = "pink armoured helmet"
+	//icon_change = 'icons/fluff/fluff_items.dmi'
+	icon_state_change = "pinkironhammer_full"
+	vars_change = list(
+		"desc" = "A full helmet with a built in glow visor. While a weak light its better than nothing and the full cover design makes it ideal for general protection. This one has been painted pink and had cat ears glued on despite department dress code and property violations.",
+		//"icon_override" = 'icons/fluff/fluff_items.dmi',
+		"item_state" = "pinkironhammer_full"
+	)
+/obj/item/fluff_conversion_kit/baton_pinkifier
+	name = "Crashouts Baton Cover"
+	target_type = /obj/item/tool/baton
+	name_change = "pink stun baton"
+	//icon_change = 'icons/fluff/fluff_items.dmi'
+	icon_state_change = "pinkstunbaton"
+	vars_change = list(
+		"desc" = "A pink zap stick for beating the shit out of people.",
+		//"icon_override" = 'icons/fluff/fluff_items.dmi',
+		"item_state" = "pinkstunbaton"
+	)
+/*
+/obj/item/fluff_conversion_kit/s10_pinkifier
+	name = "gas mask pinkifier"
+	target_type = /obj/item/clothing/mask/gas/blackshield_gasmask
+	name_change = "C-10 Gas Mask"
+	//icon_change = 'icons/fluff/fluff_items.dmi'
+	icon_state_change = "s10_pink"
+	vars_change = list(
+		"desc" = "A modern reproduction of an ancient but effective gas mask design from centuries ago on earth. While its primitive design is virtually unchanged, the air is still pure.",
+		//"icon_override" = 'icons/fluff/fluff_items.dmi',
+		"item_state" = "s10_pink"
+	)
+/obj/item/fluff_conversion_kit/s10_pinkifier
+	name = "gas mask pinkifier"
+	target_type = /obj/item/clothing/mask/gas/blackshield_gasmask
+	name_change = "C-10 Gas Mask"
+	//icon_change = 'icons/fluff/fluff_items.dmi'
+	icon_state_change = "s10_pink"
+	vars_change = list(
+		"desc" = "A modern reproduction of an ancient but effective gas mask design from centuries ago on earth. While its primitive design is virtually unchanged, the air is still pure.",
+		//"icon_override" = 'icons/fluff/fluff_items.dmi',
+		"item_state" = "s10_pink"
+	)
+/obj/item/fluff_conversion_kit/s10_pinkifier
+	name = "gas mask pinkifier"
+	target_type = /obj/item/clothing/mask/gas/blackshield_gasmask
+	name_change = "C-10 Gas Mask"
+	//icon_change = 'icons/fluff/fluff_items.dmi'
+	icon_state_change = "s10_pink"
+	vars_change = list(
+		"desc" = "A modern reproduction of an ancient but effective gas mask design from centuries ago on earth. While its primitive design is virtually unchanged, the air is still pure.",
+		//"icon_override" = 'icons/fluff/fluff_items.dmi',
+		"item_state" = "s10_pink"
+	)
+/obj/item/fluff_conversion_kit/s10_pinkifier
+	name = "gas mask pinkifier"
+	target_type = /obj/item/clothing/mask/gas/blackshield_gasmask
+	name_change = "C-10 Gas Mask"
+	//icon_change = 'icons/fluff/fluff_items.dmi'
+	icon_state_change = "s10_pink"
+	vars_change = list(
+		"desc" = "A modern reproduction of an ancient but effective gas mask design from centuries ago on earth. While its primitive design is virtually unchanged, the air is still pure.",
+		//"icon_override" = 'icons/fluff/fluff_items.dmi',
+		"item_state" = "s10_pink"
+	)
+*/
+// msrandylicious
+// LOADOUT OBJECTS
+/datum/gear/fluff/crashouts_sts
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts STS Auto Converter (no charlie needed)"
+	path = /obj/item/fluff_conversion_kit/sts_pinkifier
+/datum/gear/fluff/crashouts_sts_conversion_kit
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts STS DIY kit (ask charlie for help)"
+	path = /obj/item/stock_parts/blackshield/pink_sts_kit
+/datum/gear/fluff/crashouts_uniform
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts Fatigue Dye"
+	path = /obj/item/fluff_conversion_kit/uniform_pinkifier
+/datum/gear/fluff/crashouts_armour
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts Armour Paint"
+	path = /obj/item/fluff_conversion_kit/armour_pinkifier
+/datum/gear/fluff/crashouts_wintercoat
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts Wintercoat Dye"
+	path = /obj/item/fluff_conversion_kit/wintercoat_pinkifier
+/datum/gear/fluff/crashouts_gasmask
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts GasMask Paint"
+	path = /obj/item/fluff_conversion_kit/s10_pinkifier
+/datum/gear/fluff/crashouts_ushanka
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts Ushanka Dye"
+	path = /obj/item/fluff_conversion_kit/ushanka_pinkifier
+/datum/gear/fluff/crashouts_helmet
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts Helmet Paint"
+	path = /obj/item/fluff_conversion_kit/helmet_pinkifier
+/datum/gear/fluff/crashouts_baton
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts Baton Cover"
+	path = /obj/item/fluff_conversion_kit/baton_pinkifier
+
+/*
+/datum/gear/fluff/crashouts_xyz
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts xyz"
+	path = /obj/item/fluff_conversion_kit/xyz_pinkifier
+
+/datum/gear/fluff/crashouts_xyz
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts xyz"
+	path = /obj/item/fluff_conversion_kit/xyz_pinkifier
+
+/datum/gear/fluff/crashouts_xyz
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts xyz"
+	path = /obj/item/fluff_conversion_kit/xyz_pinkifier
+*/
+/datum/gear/fluff/crashouts_pendant
+	ckey_whitelist = list("msrandylicious")
+	display_name = "Crashouts Ruby-Gold Pendant"
+	path = /obj/item/clothing/accessory/necklace/rubypendant
+// this one also for CKey = "mushyp"
+/datum/gear/fluff/crashouts_bandana
+	ckey_whitelist = list("msrandylicious", "mushyp")
+	display_name = "Crashouts Gang Bandana"
+	path = /obj/item/clothing/mask/bandana/purple/crashout
+
+// mushyp
+/datum/gear/fluff/Avon_S10
+	ckey_whitelist = list("mushyp")
+	display_name = "Avon S10 Gas Mask"
+	path = /obj/item/clothing/mask/gas/avon_s10_purple
