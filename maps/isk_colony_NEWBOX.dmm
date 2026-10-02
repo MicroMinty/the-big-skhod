@@ -2829,6 +2829,10 @@
 	},
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/space)
+"btB" = (
+/obj/item/device/lighting/toggleable/lantern,
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/space)
 "btG" = (
 /obj/machinery/camera/network/cev_eris{
 	dir = 4
@@ -3437,8 +3441,10 @@
 /obj/machinery/door/airlock/glass{
 	name = "Sauna"
 	},
-/obj/structure/curtain/open/shower,
 /obj/structure/air_blocker,
+/obj/structure/curtain/open/bed{
+	name = "Privacy curtain"
+	},
 /turf/simulated/floor/industrial/white_large_slates_fixed,
 /area/space)
 "bFb" = (
@@ -9171,7 +9177,6 @@
 /area/space)
 "efb" = (
 /obj/structure/closet/cabinet,
-/obj/structure/invislightsmall,
 /turf/simulated/floor/wood,
 /area/space)
 "efn" = (
@@ -9826,6 +9831,11 @@
 	pixel_x = -24
 	},
 /turf/simulated/floor/industrial/navy_large_slates,
+/area/space)
+"ewp" = (
+/obj/structure/table/steel,
+/obj/item/storage/makeshift_grinder,
+/turf/simulated/floor/industrial/concrete_bricks,
 /area/space)
 "ewu" = (
 /obj/structure/table/standard,
@@ -14917,6 +14927,10 @@
 	dir = 8;
 	pixel_x = 28
 	},
+/obj/structure/multiz/ladder,
+/obj/structure/flora/ausbushes/grassybush{
+	layer = 3
+	},
 /turf/simulated/floor/asteroid/grass,
 /area/space)
 "gQb" = (
@@ -15788,7 +15802,6 @@
 	pixel_y = 16
 	},
 /obj/item/soap,
-/obj/structure/invislightsmall,
 /turf/simulated/floor/tiled/white/techfloor_grid,
 /area/space)
 "hjM" = (
@@ -19116,12 +19129,16 @@
 /obj/effect/floor_decal/industrial/box/white,
 /turf/simulated/floor/industrial/navy_slates,
 /area/space)
+"iKL" = (
+/obj/item/storage/box/costume/scarecrow,
+/obj/item/tool/scythe,
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/space)
 "iLi" = (
 /obj/structure/table/marble,
 /obj/item/flame/candle/eternal,
 /obj/item/flame/candle/eternal,
 /obj/item/flame/candle/eternal,
-/obj/structure/invislightsmall,
 /turf/simulated/floor/wood/wild3,
 /area/space)
 "iLl" = (
@@ -19134,6 +19151,11 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
+/area/space)
+"iMv" = (
+/obj/item/stack/ore,
+/obj/effect/decal/cleanable/rubble,
+/turf/simulated/floor/wood/wild4,
 /area/space)
 "iMx" = (
 /obj/structure/table/rack/shelf,
@@ -19305,6 +19327,10 @@
 	dir = 4
 	},
 /turf/simulated/floor/industrial/navy_large_slates,
+/area/space)
+"iQL" = (
+/obj/structure/sink/puddle,
+/turf/simulated/floor/asteroid/dirt/mud,
 /area/space)
 "iQO" = (
 /obj/structure/table/standard,
@@ -19889,6 +19915,14 @@
 "jfT" = (
 /obj/structure/bookcase,
 /turf/simulated/floor/industrial/navy_slates,
+/area/space)
+"jfZ" = (
+/obj{
+	name = "---Merge conflict marker---"
+	},
+/obj/structure/table/steel,
+/obj/item/device/lighting/toggleable/lamp,
+/turf/simulated/floor/industrial/concrete_bricks,
 /area/space)
 "jgq" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_border{
@@ -21190,6 +21224,12 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood/wild1,
+/area/space)
+"jKO" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/turf/simulated/floor/industrial/concrete_bricks,
 /area/space)
 "jKR" = (
 /obj/structure/scrap_beacon,
@@ -22635,6 +22675,11 @@
 	dir = 2
 	},
 /turf/simulated/floor/tiled/white/cargo,
+/area/space)
+"klO" = (
+/obj/machinery/portable_atmospherics/hydroponics/soil,
+/obj/effect/decal/cleanable/rubble,
+/turf/simulated/floor/asteroid/dirt/dark/plough,
 /area/space)
 "kme" = (
 /obj/structure/window/reinforced/iskhod{
@@ -24297,6 +24342,10 @@
 /obj/machinery/camera/network/medbay,
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
+"kZo" = (
+/obj/effect/decal/cleanable/rubble,
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/space)
 "kZq" = (
 /obj/structure/bookcase/archive/adult,
 /turf/simulated/floor/wood/wild3,
@@ -24857,6 +24906,12 @@
 "lnl" = (
 /obj/structure/bed/chair/sofa/yellow/left,
 /turf/simulated/floor/tiled/dark/golden,
+/area/space)
+"lnG" = (
+/obj/machinery/portable_atmospherics/hydroponics/soil,
+/obj/item/stack/ore,
+/obj/effect/decal/cleanable/rubble,
+/turf/simulated/floor/industrial/concrete_bricks,
 /area/space)
 "lnU" = (
 /obj/machinery/camera/network/security{
@@ -25673,6 +25728,10 @@
 /obj/item/cell/large/high,
 /obj/item/cell/large/high,
 /turf/simulated/floor/wood/wild3,
+/area/space)
+"lFE" = (
+/obj/structure/flora/ausbushes/grassybush,
+/turf/simulated/floor/asteroid/grass,
 /area/space)
 "lGf" = (
 /obj/machinery/light{
@@ -27144,6 +27203,7 @@
 /mob/living/simple/cow{
 	name = "Betsy"
 	},
+/obj/structure/flora/ausbushes/ppflowers,
 /turf/simulated/floor/asteroid/grass,
 /area/space)
 "mmA" = (
@@ -28041,6 +28101,14 @@
 	pixel_y = 16
 	},
 /turf/simulated/floor/tiled/steel,
+/area/space)
+"mId" = (
+/obj{
+	name = "---Merge conflict marker---"
+	},
+/obj/item/stack/ore,
+/obj/effect/decal/cleanable/rubble,
+/turf/simulated/floor/industrial/concrete_bricks,
 /area/space)
 "mIf" = (
 /obj/item/device/lighting/toggleable/lamp{
@@ -31157,6 +31225,10 @@
 /obj/item/clothing/suit/storage/snowsuit,
 /turf/simulated/floor/tiled/dark,
 /area/space)
+"ogT" = (
+/obj/structure/closet/secure_closet/personal/hydroponics,
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/space)
 "ogW" = (
 /obj/structure/reagent_dispensers/biomatter,
 /obj/effect/floor_decal/industrial/box/white,
@@ -33317,11 +33389,22 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
+"peu" = (
+/obj{
+	name = "---Merge conflict marker---"
+	},
+/obj/item/reagent_containers/glass/beaker,
+/obj/structure/table/rack,
+/obj/item/reagent_containers/glass/beaker,
+/obj/item/storage/box/bottles,
+/obj/item/hand_labeler,
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/space)
 "peR" = (
 /obj/machinery/washing_machine,
 /obj/item/towel/random,
 /obj/item/towel/random,
-/obj/structure/invislightsmall,
+/obj/structure/invislight,
 /turf/simulated/floor/industrial/white_large_slates,
 /area/space)
 "peY" = (
@@ -35171,8 +35254,6 @@
 /obj/machinery/shower{
 	pixel_y = 16
 	},
-/obj/item/soap,
-/obj/structure/invislightsmall,
 /turf/simulated/floor/tiled/white/techfloor_grid,
 /area/space)
 "pXm" = (
@@ -36479,6 +36560,10 @@
 /obj/structure/girder,
 /obj/item/material/shard/shrapnel/scrap,
 /turf/simulated/floor/plating/under,
+/area/space)
+"qxU" = (
+/obj/structure/curtain/black,
+/turf/simulated/floor/wood/wild3,
 /area/space)
 "qya" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
@@ -39808,11 +39893,11 @@
 /turf/simulated/floor/carpet,
 /area/space)
 "rSD" = (
-/obj/machinery/door/airlock/multi_tile/glass{
-	name = "Holodeck"
-	},
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /obj/machinery/door/firedoor/multi_tile,
+/obj/machinery/door/airlock/multi_tile/metal{
+	name = "Holodeck"
+	},
 /turf/simulated/floor/wood/wild1,
 /area/space)
 "rTl" = (
@@ -43315,6 +43400,15 @@
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/space)
+"tFL" = (
+/obj{
+	name = "---Merge conflict marker---"
+	},
+/obj/structure/multiz/ladder/up{
+	layer = 4
+	},
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/space)
 "tFP" = (
 /obj/structure/table/reinforced,
 /obj/machinery/button/remote/blast_door{
@@ -44173,6 +44267,13 @@
 /obj/machinery/atmospherics/binary/circulator,
 /turf/simulated/floor/plating/under,
 /area/space)
+"tYR" = (
+/obj{
+	name = "---Merge conflict marker---"
+	},
+/obj/structure/reagent_dispensers/watertank/huge,
+/turf/simulated/floor/industrial/ceramic,
+/area/space)
 "tYT" = (
 /turf/simulated/shuttle/wall/mining{
 	icon_state = "2,8"
@@ -44643,6 +44744,11 @@
 /turf/simulated/shuttle/floor/mining{
 	icon_state = "8,23"
 	},
+/area/space)
+"ujM" = (
+/obj/structure/table/steel,
+/obj/item/device/makeshift_centrifuge,
+/turf/simulated/floor/industrial/concrete_bricks,
 /area/space)
 "ukc" = (
 /obj/effect/floor_decal/industrial/warningdust/fulltile,
@@ -49992,6 +50098,10 @@
 	},
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
+"wEf" = (
+/obj/machinery/portable_atmospherics/hydroponics/soil,
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/space)
 "wEi" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
@@ -53060,6 +53170,13 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/space)
+"xWE" = (
+/obj/machinery/floodlight{
+	name = "floodlight";
+	oldified = 1
+	},
+/turf/simulated/floor/asteroid/dirt/mud,
+/area/space)
 "xWH" = (
 /obj/structure/closet/l3closet/janitor,
 /turf/simulated/floor/industrial/navy_slates,
@@ -54469,14 +54586,14 @@ arM
 arM
 arM
 arM
-vgN
-vgN
-vgN
-vgN
-vgN
-vgN
-vgN
-vgN
+arM
+arM
+arM
+arM
+arM
+arM
+arM
+arM
 arM
 arM
 arM
@@ -54671,14 +54788,14 @@ arM
 arM
 arM
 arM
-vgN
-wBw
-wAd
-wBw
-wAd
-wBw
-wAd
-vgN
+arM
+arM
+arM
+arM
+arM
+arM
+arM
+arM
 arM
 arM
 arM
@@ -54873,14 +54990,14 @@ arM
 arM
 arM
 arM
-vgN
-gaK
-gaK
-gaK
-gaK
-gaK
-gaK
-vgN
+arM
+arM
+arM
+arM
+arM
+arM
+arM
+arM
 arM
 arM
 arM
@@ -55075,14 +55192,14 @@ arM
 arM
 arM
 arM
-vgN
-gaK
-gaK
-gaK
-gaK
-gaK
-gaK
-vgN
+arM
+arM
+arM
+arM
+arM
+arM
+arM
+arM
 arM
 arM
 arM
@@ -55278,15 +55395,15 @@ arM
 arM
 arM
 vgN
-gaK
-gaK
-gaK
-gaK
-gaK
-gaK
 vgN
-arM
-arM
+vgN
+vgN
+vgN
+vgN
+vgN
+vgN
+vgN
+vgN
 arM
 arM
 arM
@@ -55480,15 +55597,15 @@ arM
 arM
 arM
 vgN
-gaK
-gaK
-gaK
-gaK
-gaK
-gaK
+wBw
+wAd
+wBw
+wAd
+wBw
+wAd
+wBw
+wAd
 vgN
-arM
-arM
 arM
 arM
 arM
@@ -55688,9 +55805,9 @@ gaK
 gaK
 gaK
 gaK
+gaK
+gaK
 vgN
-arM
-arM
 arM
 arM
 arM
@@ -55890,9 +56007,9 @@ gaK
 gaK
 gaK
 gaK
+gaK
+gaK
 vgN
-arM
-arM
 arM
 arM
 arM
@@ -56092,9 +56209,9 @@ gaK
 gaK
 gaK
 gaK
+gaK
+gaK
 vgN
-arM
-arM
 arM
 arM
 arM
@@ -56294,9 +56411,9 @@ gaK
 gaK
 gaK
 gaK
+gaK
+gaK
 vgN
-arM
-arM
 arM
 arM
 arM
@@ -56496,9 +56613,9 @@ gaK
 gaK
 gaK
 gaK
+gaK
+gaK
 vgN
-arM
-arM
 arM
 arM
 arM
@@ -56698,9 +56815,9 @@ gaK
 gaK
 gaK
 gaK
+gaK
+gaK
 vgN
-arM
-arM
 arM
 arM
 arM
@@ -56900,9 +57017,9 @@ gaK
 gaK
 gaK
 gaK
+gaK
+gaK
 vgN
-arM
-arM
 arM
 arM
 arM
@@ -57101,10 +57218,10 @@ rXO
 stW
 rXO
 stW
+rXO
+stW
 gaK
 vgN
-arM
-arM
 arM
 arM
 arM
@@ -57303,10 +57420,10 @@ sGY
 sGY
 sGY
 sGY
+sGY
+sGY
 stW
 vgN
-arM
-arM
 arM
 arM
 arM
@@ -62943,8 +63060,8 @@ arM
 arM
 arM
 arM
-arM
-arM
+gux
+kbS
 gux
 dbu
 jBL
@@ -63145,8 +63262,8 @@ arM
 arM
 arM
 arM
-arM
-arM
+gux
+kbS
 gux
 jBL
 jBL
@@ -63347,8 +63464,8 @@ arM
 arM
 arM
 arM
-arM
-arM
+gux
+kbS
 gux
 jBL
 mkm
@@ -63549,8 +63666,8 @@ arM
 arM
 arM
 arM
-arM
-arM
+gux
+kbS
 jaH
 jBL
 mkm
@@ -63751,8 +63868,8 @@ arM
 arM
 arM
 arM
-arM
-arM
+gux
+kbS
 gux
 jBL
 jBL
@@ -63953,8 +64070,8 @@ arM
 arM
 arM
 arM
-arM
-arM
+gux
+kbS
 gux
 xCZ
 oZy
@@ -64155,7 +64272,7 @@ arM
 arM
 arM
 arM
-arM
+gux
 gux
 gux
 laq
@@ -68449,10 +68566,10 @@ arM
 arM
 arM
 arM
-arM
-arM
-arM
-arM
+gux
+gux
+gux
+gux
 arM
 arM
 arM
@@ -68651,10 +68768,10 @@ arM
 arM
 arM
 arM
-arM
-arM
-arM
-arM
+kbS
+kbS
+gux
+gux
 arM
 arM
 arM
@@ -68850,13 +68967,13 @@ arM
 arM
 arM
 arM
-arM
-arM
-arM
-arM
-arM
-arM
-arM
+peu
+wEf
+wEf
+pja
+kbS
+kbS
+gux
 arM
 arM
 arM
@@ -69051,14 +69168,14 @@ arM
 arM
 arM
 arM
+ogT
 arM
+wEf
 arM
-arM
-arM
-arM
-arM
-arM
-arM
+pja
+xWE
+kbS
+gux
 arM
 arM
 arM
@@ -69253,14 +69370,14 @@ arM
 arM
 arM
 arM
+kZo
 arM
+kZo
 arM
-arM
-arM
-arM
-arM
-arM
-arM
+iMv
+pja
+kbS
+gux
 arM
 arM
 arM
@@ -69455,14 +69572,14 @@ arM
 arM
 arM
 arM
-arM
-arM
-arM
-arM
-arM
-arM
-arM
-arM
+tFL
+mId
+btB
+iKL
+aNK
+pja
+kbS
+gux
 arM
 arM
 arM
@@ -69657,14 +69774,14 @@ arM
 arM
 arM
 arM
+jfZ
 arM
 arM
 arM
-arM
-arM
-arM
-arM
-arM
+aNK
+klO
+kbS
+gux
 arM
 arM
 arM
@@ -69859,14 +69976,14 @@ arM
 arM
 arM
 arM
+ewp
+jKO
+lnG
 arM
-arM
-arM
-arM
-arM
-arM
-arM
-arM
+pja
+iQL
+kbS
+gux
 arM
 arM
 arM
@@ -70062,13 +70179,13 @@ arM
 arM
 arM
 arM
-arM
-arM
-arM
-arM
-arM
-arM
-arM
+ujM
+wEf
+wEf
+pja
+kbS
+kbS
+gux
 arM
 arM
 arM
@@ -70261,16 +70378,16 @@ arM
 arM
 arM
 arM
-arM
-arM
-arM
-arM
-arM
-arM
-arM
-arM
-arM
-arM
+gux
+gux
+kbS
+kbS
+kbS
+kbS
+kbS
+kbS
+gux
+gux
 arM
 arM
 arM
@@ -70463,16 +70580,16 @@ arM
 arM
 arM
 arM
-arM
-arM
-arM
-arM
-arM
-arM
-arM
-arM
-arM
-arM
+gux
+gux
+gux
+gux
+gux
+gux
+gux
+gux
+gux
+gux
 arM
 arM
 arM
@@ -72252,11 +72369,11 @@ arM
 arM
 arM
 arM
-arM
-arM
-arM
-arM
-arM
+gux
+gux
+gux
+gux
+gux
 arM
 arM
 arM
@@ -72411,7 +72528,7 @@ arM
 arM
 arM
 arM
-arM
+gux
 gux
 gux
 enR
@@ -73219,7 +73336,7 @@ arM
 arM
 arM
 arM
-arM
+gux
 gux
 gux
 enR
@@ -73464,11 +73581,11 @@ arM
 arM
 arM
 arM
-arM
-arM
-arM
-arM
-arM
+gux
+gux
+gux
+gux
+gux
 arM
 arM
 arM
@@ -75278,9 +75395,9 @@ arM
 arM
 arM
 arM
-arM
-arM
-arM
+gux
+gux
+gux
 arM
 arM
 arM
@@ -85490,17 +85607,17 @@ arM
 arM
 arM
 vgN
+oov
+oov
+oov
+oov
+oov
+oov
+oov
+oov
+oov
 vgN
 vgN
-oov
-oov
-oov
-oov
-oov
-oov
-oov
-oov
-oov
 oov
 oov
 oov
@@ -85692,8 +85809,6 @@ arM
 arM
 arM
 vgN
-vgN
-vgN
 oov
 bHI
 bHI
@@ -85703,6 +85818,8 @@ bHI
 bHI
 bHI
 oov
+vgN
+vgN
 oov
 hjH
 jVr
@@ -85894,8 +86011,6 @@ arM
 arM
 arM
 vgN
-vgN
-vgN
 oov
 bHI
 lbB
@@ -85905,11 +86020,13 @@ qla
 rQS
 bHI
 oov
+vgN
+vgN
 oov
 pXi
 dzq
 wEE
-peR
+eXc
 oov
 vgN
 vgN
@@ -86096,8 +86213,6 @@ arM
 arM
 arM
 vgN
-vgN
-vgN
 oov
 bHI
 lbB
@@ -86106,6 +86221,8 @@ qRh
 mYs
 qRh
 dtu
+oov
+oov
 oov
 oov
 oov
@@ -86298,8 +86415,6 @@ arM
 arM
 arM
 vgN
-vgN
-vgN
 oov
 bHI
 szb
@@ -86309,6 +86424,8 @@ fyY
 fyY
 ofi
 ofi
+qxU
+ddX
 nCB
 iLi
 guN
@@ -86500,8 +86617,6 @@ arM
 arM
 arM
 vgN
-vgN
-vgN
 oov
 bHI
 lbB
@@ -86511,6 +86626,8 @@ fyY
 fyY
 ofi
 ofi
+qxU
+ddX
 ddX
 ddX
 ddX
@@ -86702,8 +86819,6 @@ arM
 arM
 arM
 vgN
-vgN
-vgN
 oov
 bHI
 lbB
@@ -86713,6 +86828,8 @@ fyY
 fyY
 ofi
 ofi
+qxU
+ddX
 ddX
 ddX
 ddX
@@ -86904,8 +87021,6 @@ arM
 arM
 arM
 vgN
-vgN
-vgN
 oov
 bHI
 lbB
@@ -86914,6 +87029,8 @@ qRh
 bbh
 qRh
 rIz
+oov
+oov
 oov
 qyh
 ddX
@@ -87106,8 +87223,6 @@ arM
 arM
 arM
 vgN
-vgN
-vgN
 oov
 bHI
 tBg
@@ -87116,6 +87231,8 @@ dsR
 mtD
 xwj
 bHI
+oov
+vgN
 oov
 bTW
 ddX
@@ -87308,8 +87425,6 @@ arM
 arM
 arM
 vgN
-vgN
-vgN
 oov
 bHI
 bHI
@@ -87318,6 +87433,8 @@ bHI
 bHI
 bHI
 bHI
+oov
+vgN
 oov
 bwm
 ddX
@@ -87510,8 +87627,8 @@ arM
 arM
 arM
 vgN
-vgN
-vgN
+oov
+oov
 oov
 oov
 oov
@@ -107230,9 +107347,9 @@ nDL
 mgI
 fpH
 nCl
-wNH
-wNH
-wNH
+lFE
+wJm
+suI
 nCl
 nZS
 nZS
@@ -107635,7 +107752,7 @@ mgI
 mgI
 nCl
 cQu
-wNH
+pIC
 wNH
 nCl
 nZS
@@ -108040,7 +108157,7 @@ mgI
 nCl
 cQu
 wNH
-wNH
+qNa
 nCl
 nZS
 nZS
@@ -108242,7 +108359,7 @@ mgI
 nCl
 wNH
 wNH
-wNH
+lFE
 vct
 nZS
 nZS
@@ -108442,9 +108559,9 @@ uRu
 mgI
 mgI
 jul
-wNH
+suI
 dgR
-wNH
+sDU
 vct
 nZS
 nZS
@@ -108645,7 +108762,7 @@ mgI
 mgI
 jul
 low
-wNH
+pIC
 wNH
 vct
 nZS
@@ -108848,7 +108965,7 @@ mgI
 jul
 wNH
 cPL
-wNH
+suI
 vct
 nZS
 nZS
@@ -109048,7 +109165,7 @@ mgI
 mgI
 mgI
 nCl
-wNH
+sDU
 fLc
 cQu
 nCl
@@ -109250,7 +109367,7 @@ mgI
 uyI
 fFz
 nCl
-wNH
+wJm
 cQu
 msB
 nCl
@@ -109448,7 +109565,7 @@ mgI
 mgI
 kGD
 kGD
-mgI
+tYR
 mgI
 rpl
 nCl
@@ -109654,10 +109771,10 @@ nCl
 nCl
 nCl
 nCl
-wNH
-wNH
+suI
+sDU
 pnn
-nCl
+vct
 nZS
 nZS
 nZS
