@@ -248,6 +248,15 @@
 		usr.update_action_buttons()
 		return 1 //Or you could just use this instead of making another subtype just for races
 
+/obj/item/clothing/mask/gas/avon_s10_pink
+	name = "C-10 Gas Mask"
+	desc = "A modern reproduction of an ancient but effective gas mask design from centuries ago on earth. While its primitive design is virtually unchanged, the air is still pure."
+	icon_state = "s10_pink"
+
+/obj/item/clothing/mask/gas/avon_s10_purple
+	name = "Avon S-10 Gas Mask"
+	desc = "An original ancient design from centuries ago originating on Earth, miraculously sourced in a functional state. While its design is primitive, the air is still pure. This one has been decorated with purple accents."
+	icon_state = "s10_purple"
 
 //Sprite by INFRARED_BARON
 /obj/item/clothing/mask/gas/big_shot

@@ -296,12 +296,29 @@
 		usr.update_action_buttons()
 		return 1
 
+/obj/item/clothing/suit/armor/vest/ironhammer/pink
+	name = "pink tactical unit armor"
+	desc = "An armored vest painted in Pretty Pink. This one has shoulderpads and kneepads included to protect all parts of the body."
+	icon_state = "pinkarmor_ih_fullbody_alt"
+	item_state = "pinkarmor_ih_fullbody_alt"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	stiffness = LIGHT_STIFFNESS
+
 /obj/item/clothing/suit/armor/vest/ironhammer_wintercoat //pieced together thanks to Rebel's Supply spec coat - Dongels
 	name = "security armored coat"
-	desc = "An armored winter coat with vest that protects against some damage. This one has been done in security colors. Not designed for serious operations. You're pretty sure the coat is just thick enough to keep warm, and that's all. Why you would want that on a planet like Amethyn is beyond thought."
+	desc = "An armored winter coat with vest that protects against some damage. This one has been done in security colors. Not designed for serious operations. You're pretty sure the coat is just thick enough to keep warm, and that's all. Handy on a planet like Iskandor."
 	icon_state = "coatsecurity_long"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
 	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+
+obj/item/clothing/suit/armor/vest/pink_armored_wintercoat
+	name = "pink armored winter coat"
+	desc = "An armored winter coat with vest that protects against some damage. This one has been dyed pink against department dress code. Not designed for serious operations. You're pretty sure the coat is just thick enough to keep warm, and that's all. Handy on a planet like Iskandor."
+	icon_state = "coatsecurity_long_pink"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+
 
 ////////////
 
@@ -1801,22 +1818,6 @@
 		bio = 0,
 		rad = 0)
 
-
-/obj/item/clothing/suit/armor/hunter/roachking
-	name = "armor of the monarch"
-	desc = "A very heavily armored suit of chitin, leather, and bone. It is adorned with Emperor silk stitching and the pheromone glands of a Kaiser Roach, both treated so as to enhance the armor, \
-	and pacify those of roachy and chitinous origin nearby."
-	icon_state = "hunter_armor_roach"
-	item_state = "hunter_armor_roach"
-	blood_overlay_type = "armor"
-	armor_list = list(
-		melee = 10
-		bullet = 10
-		energy = 10
-		bomb = 10
-		bio = 0
-		rad = 5
-	)
 
 /// End of lodge armor.
 

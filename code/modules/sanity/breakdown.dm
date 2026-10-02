@@ -9,7 +9,7 @@
 	var/list/start_messages
 	var/list/end_messages
 
-	var/duration = 30 MINUTES //by default
+	var/duration = 0 MINUTES //by default // MODIFIED TO 0 FROM 30 TO DISABLE BREAKDOWNS EFFECTIVELY
 	var/end_time
 	var/delay //delay time before it occurs, or updates. it must be used manually.
 
@@ -38,17 +38,23 @@
 	return TRUE
 
 /datum/breakdown/proc/init_update()
+	return TRUE // DISABLING BREAKDOWNS ENTIRELY
+	/*
 	if(world.time + duration >= end_time + delay)
 		return TRUE
 	occur_animation()
 	return FALSE
+	*/
 
 /datum/breakdown/proc/occur_animation()
+	return  // DISABLING BREAKDOWNS ENTIRELY
 	var/image/img = image('icons/effects/insanity_statuses.dmi', holder.owner)
 	holder.owner << img
 	flick(icon_state, img)
 
 /datum/breakdown/proc/occur()
+	return FALSE // DISABLING BREAKDOWNS ENTIRELY
+	/*
 	occur_animation()
 	holder.owner.playsound_local(get_turf(holder.owner), breakdown_sound, 100)
 	if(holder.owner.head && istype(holder.owner.head, /obj/item/clothing/head/mindreader))
@@ -67,8 +73,11 @@
 	else if(duration > 0)
 		end_time = world.time + duration
 	return TRUE
+	*/
 
 /datum/breakdown/proc/conclude()
+	return // DISABLING BREAKDOWNS ENTIRELY
+	/*
 	if(end_messages)
 		log_and_message_admins("[holder.owner] is no longer affected by [name]")
 		to_chat(holder.owner,SPAN_NOTICE(pick(end_messages)))
@@ -82,3 +91,4 @@
 	else if(restore_sanity_post)
 		holder.restoreLevel(restore_sanity_post)
 	qdel(src)
+	*/

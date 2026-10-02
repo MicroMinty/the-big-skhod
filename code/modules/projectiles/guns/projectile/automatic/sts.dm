@@ -193,6 +193,32 @@
 		FULL_AUTO_300
 		)
 
+/obj/item/gun/projectile/automatic/sts/rifle/pink
+	name = "\"STS PINK\" Blackshield rifle"
+	desc = "A lightweight, pinkified modified variant of the STS-30 that takes 7.5mm rounds, shedding wartime wood for modern plastic polymer and some pink tape. \
+	The lightweight polymer, skeletal stock and shortened barrel make this weapon much lighter than the standard STS with modified receivers and gas block for better recoil control. \
+	Two stamps are pressed into the side of the receiver: A 'M&C' logo and a blackshield logo."
+	icon = 'icons/obj/guns/projectile/sts_pink.dmi'
+	icon_state = "stspara"
+	item_state = "stspara"
+	matter = list(MATERIAL_PLASTEEL = 20, MATERIAL_PLASTIC = 12)
+	w_class = ITEM_SIZE_BULKY
+	extra_bulk = -2 //Slightly smaller
+	damage_multiplier = 1.3 //Well oiled
+	caliber = CAL_RIFLE
+	mag_well = MAG_WELL_RIFLE
+	init_recoil = RIFLE_RECOIL(1.1)
+	fire_sound = 'sound/weapons/guns/fire/NM_PARA.ogg' // This is the sound ripped from a video of me shooting an FM FSL. As real as it gets. - Seb
+	serial_type = "NM"
+	gun_parts = list(/obj/item/part/gun/frame/sts = 1, /obj/item/part/gun/grip/rubber = 1, /obj/item/part/gun/mechanism/autorifle = 1, /obj/item/part/gun/barrel/lrifle = 1)
+
+	max_upgrades = 4 // We got good baseline lets not get out of hand here
+	init_firemodes = list(
+		SEMI_AUTO_NODELAY,
+		BURST_2_ROUND,
+		FULL_AUTO_300
+		)
+
 /obj/item/gun/projectile/automatic/sts/rifle/blackshield/sawn
 	name = "short-barreled Blackshield \"STS PARA\" rifle"
 	desc = "A lightweight modified variant of the STS-30 that takes 7.5mm rounds, shedding wartime wood for modern plastic polymer. This one has been shortened as much as possible while still being able to function properly."
@@ -215,6 +241,7 @@
 	wield_delay = 0.8 SECOND
 	wield_delay_factor = 0.2 // 20 vig for insta wield
 	gun_parts = list(/obj/item/part/gun/grip/rubber = 1, /obj/item/part/gun/mechanism/autorifle = 1, /obj/item/stack/material/plasteel = 2)
+
 
 
 /obj/item/part/gun/frame/sts

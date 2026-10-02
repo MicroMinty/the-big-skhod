@@ -9453,6 +9453,10 @@
 "cle" = (
 /obj/machinery/light,
 /obj/structure/reagent_dispensers/bidon,
+/obj/structure/extinguisher_cabinet{
+	pixel_y = -30
+	},
+/obj/effect/floor_decal/industrial/box/red,
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/iskhod/medical/chemistry)
 "cll" = (
@@ -66003,12 +66007,11 @@
 /turf/simulated/floor/industrial/navy_slates,
 /area/iskhod/security/prisoncells)
 "pXT" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_x = -27;
-	pixel_y = 0
+/obj/structure/sink/kitchen{
+	dir = 4;
+	name = "utility sink";
+	pixel_x = -20
 	},
-/obj/effect/floor_decal/industrial/box/red,
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/iskhod/medical/chemistry)
 "pXZ" = (
